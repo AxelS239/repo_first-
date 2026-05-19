@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Montes Gómez Axel Saúl">
+    <meta name="description" content="Actividad 2: Explicando código en C">
+    <title>Explicando código en C</title>
+</head>
+<body>
+    <h1>Actividad 2. Explicando código en C</h1>
+    <h2>Programa: Verificador de Mayoría de Edad</h2>
+
+    <p>A continuación se presenta un fragmento de código escrito en lenaguaje C </p>
+
+    <h2>Código original:</h2>
+    <pre><code>
+#include &lt;stdio.h&gt;
+
+int main() {
+    int edad;
+    printf("¿Cuántos años tienes? ");
+    scanf("%d", &amp;edad);
+
+    if (edad &gt;= 18) {
+        printf("Eres mayor de edad.\n");
+    } else {
+        printf("Eres menor de edad.\n");
+    }
+
+    return 0;
+}
+    </code></pre>
+
+    <hr>
+
+    <h2>Explicación paso a paso:</h2>
+    
+    <p>Biblioteca estándar: La línea <code>#include &lt;stdio.h&gt;</code> le dice al compilador que incluya la biblioteca estándar de entrada y salida, la cual es necesaria para poder usar funciones como <code>printf</code> y <code>scanf</code>.</p>
+    
+    <p>Función principal: <code>int main()</code> es la función donde comienza la ejecución del programa.</p>
+    
+    <p>Variables y Entrada/Salida:<br>
+    Primero, se declara una variable de tipo entero llamada <code>edad</code>.<br>
+    Luego, <code>printf</code> imprime la pregunta en la pantalla, y <code>scanf</code> lee el número entero que el usuario escribe en la consola y lo guarda en la memoria de la variable <code>edad</code>.</p>
+    
+    <p>Condicional If-Else:<br>
+    El programa utiliza un <code>if</code> para evaluar si la variable <code>edad</code> es mayor o igual a 18 (<code>edad &gt;= 18</code>).<br>
+    Si la condición es verdadera, imprime "Eres mayor de edad.".<br>
+    Si la condición es falsa (el <code>else</code>), imprime "Eres menor de edad.".</p>
+
+</body>
+</html>
