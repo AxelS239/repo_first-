@@ -25,7 +25,7 @@ Algo sobre mí: Mi comida favorita son las enchiladas de mole.
 
 - Soy muy bueno nadando 
 - Me gusta cocinar 
-- Soy muy curioso
+- Soy muy hábil con las herramientas(manuales).
 
 ---
 
@@ -46,9 +46,9 @@ Algo sobre mí: Mi comida favorita son las enchiladas de mole.
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. ¿qué es un hash?
-2. 
-3. 
+1. La diferencia entre Git, GitHub y GitLab.
+2. ¿Qué es un repositorio?
+3. Y las cuatro fases de un repositorio. 
 
 ---
 
