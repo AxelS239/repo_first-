@@ -59,12 +59,12 @@ Algo sobre mí: Mi comida favorita son las enchiladas de mole.
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` |Inicializa un nuevo repositorio local de Git en el directorio actual.|
+| `git status` |Muestra el estado de archivos en el directorio de trabajo.|
+| `git add .` |Añade todos los archivos al área de preparación|
+| `git commit -m "..."` |Guarda los cambios en el historial del repositorio|
+| `git log --oneline` |Muestra el historial de commits de forma resumida|
+| `git push` |Sube los commits locales a un repositorio remoto|
 
 ---
 
