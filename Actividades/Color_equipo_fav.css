@@ -1,0 +1,74 @@
+#axel.color-favorito { background-color: blue; color: white; }
+#sofia.color-favorito { background-color: black; color: white; }
+#citlali.color-favorito { background-color: rgb(245, 66, 176); color: white; }
+#jorge.color-favorito { background-color: red; color: white; }
+#emilio.color-favorito { background-color: rgb(30, 129, 80); color: white; }
+body {
+    background-color: #e0f7fa;
+}
+table {
+    border: 5px solid #0288d1;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    border: 1px solid #b3e5fc;
+    padding: 8px;
+}
+caption {
+    font-size: 30px;
+    font-weight: bold;
+    position: static;
+    top: 5px;
+    font-family: Impact;
+    color: #01579b;
+    margin-bottom: 10px;
+}
+.note {
+    position: sticky;
+    top: 10px;
+    color: #01579b;
+    border: 2px solid #0288d1;
+    background-color: #e1f5fe;
+    padding: 5px;
+}
+.table {
+    position: fixed;
+    top: 200px;
+    left: 150px;
+}
+.nombre {
+    font-family: georgia;
+}
+*:hover {
+    font-family: arial;
+}
+p {
+    position: fixed;
+    top: 90px;
+    right: 0px;
+    border: 5px solid #0288d1;
+    background-color: #e1f5fe;
+    color: #01579b;
+    font-family: georgia;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+@media(max-width: 600px) {
+    body {
+        background-color: #b3e5fc;
+    }
+}
+
+.color-favorito:hover {
+    background-color: #81d4fa !important;
+    color: #01579b !important;
+    cursor: pointer;
+}
+
+p:hover {
+    background-color: #0288d1;
+    color: white;
+    cursor: pointer;
+}
